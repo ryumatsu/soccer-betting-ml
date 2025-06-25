@@ -72,3 +72,58 @@ We also used cross-validation on Random Forest, optimizing the number of trees a
 
 ## 📂 Project Structure
 
+── data/
+│ └── E0_cleaned.csv
+├── notebooks/
+│ ├── databricks_logreg.ipynb
+│ └── zeppelin_experiments.ipynb
+├── README.md
+└── requirements.txt (coming soon)
+
+
+---
+
+## 🖥️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/soccer-betting-ml.git
+   cd soccer-betting-ml
+
+2. Use Databricks (or Zeppelin) to open and run the notebooks.
+
+3. Load the data from - https://raw.githubusercontent.com/ryumatsu/soccer-betting-ml/main/E0_cleaned.csv
+
+4. Follow the step-by-step cells to run preprocessing, training, and evaluation. (You’ll need access to Databricks or a Spark-enabled environment to run the notebooks.
+
+)
+
+## 📈 Visuals & Results
+Sample output from the best-performing model:
+Confusion Matrix:
+[88. 20.]
+[23. 94.]
+
+Test Accuracy: ~72%
+AUC Score: 0.730
+
+## 👥 Contributors
+This project was created by:
+
+Atharva Borole – GitHub
+
+Daniel Ozorio Delfin
+
+Ryuichi Matsushita
+
+Instructor: Dr. Jongwook Woo, Cal State LA
+
+## 📄 References
+Raw Dataset: https://raw.githubusercontent.com/ryumatsu/soccer-betting-ml/main/E0_cleaned.csv
+
+Project Paper: [add link here if you upload the PDF]
+
+Data Source: https://www.football-data.co.uk/englandm.php
+
+Original GitHub Repo: https://github.com/ryumatsu/soccer-betting-ml 
+
